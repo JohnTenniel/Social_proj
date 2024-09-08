@@ -1,0 +1,43 @@
+#sidebar-aside {
+  padding-top: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
+  width: 20%;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow-y: hidden;
+  z-index: 1001;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+  #sidebar-aside:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: #cc9999;
+    z-index: -1;
+    opacity: .6; }
+
+a{
+font-family: "Great Vibes", cursive;
+font-size: 62px;
+}
+ul{
+    list-style-type: none;
+}
+
+#sidebar-logo{
+    Text-align: center
+
+}
+
+
+
+
